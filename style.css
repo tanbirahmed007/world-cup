@@ -1,0 +1,164 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-color{
+    position: absolute;
+    width: 94%;
+    height: 90vh;
+    background: #161616;
+    border-radius: 30px;
+    display: flex;
+    
+}
+
+.banner-text{
+    color: white;
+    width: 50%;
+    padding: 60px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.para{
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+}
+.button{
+    color: white;
+    text-decoration: none;
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 20px;
+}
+.fa-greater-than{
+    padding: 8px;
+}
+
+.banner-img{
+    width: 50%;
+}
+
+.marcelo{
+    height: 100%;
+}
+
+.nav{
+    position: absolute;
+    width: 18%;
+    height: 50vh;
+    margin-top: -26vh;
+    left: 60px;
+    top: 826px;
+    background: #161616;
+    border-radius: 10px;
+    }
+
+.upcoming{
+    color: #161616;
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.all{
+
+    color: #161616;
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.blog-menu{
+    color: white;
+    background-color: #DD0000;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.main-body{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    
+}
+
+.top-blogs{
+    margin-top: 47%;
+    margin-left: 23%;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 5px;
+}
+
+.transfer-button{
+    color: #161616;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.icon{
+    color: gray;
+}
+
+footer{
+    position: absolute;
+    width: 1348px;
+    height: 444px;
+    left: 0px;
+    top: 1800px;
+    background: #161616;
+}
+
+.footer-head{
+    color: white;
+    text-align: center;
+    margin-top: 12%;
+}
+
+hr{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.our-detail{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.social-media{
+
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5,0.1fr); 
+    margin-left: 35%;
+}
+
+.fa-brands{
+    font-size: 30px; 
+}
