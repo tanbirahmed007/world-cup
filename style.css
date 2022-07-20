@@ -41,6 +41,13 @@ body{
     padding: 10px;
     gap: 20px;
 }
+
+.button:hover{
+    color: red;
+    transition: 1s;
+    background-color: yellow;
+    padding: 20px;
+}
 .fa-greater-than{
     padding: 8px;
 }
@@ -71,6 +78,11 @@ body{
     padding: 20px;
     border-radius: 5px;
     text-align: center;
+}
+
+.upcoming .link-page{
+    color: #161616;
+    text-decoration: none;
 }
 
 .all{
@@ -161,4 +173,36 @@ hr{
 
 .fa-brands{
     font-size: 30px; 
+}
+
+
+@media only screen and (max-width:1100px ) {
+    .banner-text{
+        width: 25%;
+    }
+    .banner-color{
+        width: 75%;
+    }
+    .banner-img{
+        width: 25%;
+    }
+
+    .footer{
+        width: 650px;
+    }
+}
+
+@media only screen and(max-width: 800px) {
+    .banner-text{
+        width: 15%;
+    }
+    .banner-text{
+        width: 35%;
+    }
+    .banner-img{
+        width: 12.5%;
+    }
+    .footer{
+        width: 325px;
+    }
 }
